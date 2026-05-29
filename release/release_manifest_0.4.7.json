@@ -1,0 +1,39 @@
+{
+  "app": "映效AI工作站",
+  "desktop_version": "0.4.7",
+  "mobile_version": "0.1.6+7",
+  "generated_at": "2026-05-29T19:21:06",
+  "desktop_zip": "YingXiaoAIWorkstation-20260529-1917.zip",
+  "android_release": "YingXiaoAIWorkstation-mobile-0.1.6-android11-release.apk",
+  "android_debug": "YingXiaoAIWorkstation-mobile-0.1.6-android11-debug.apk",
+  "android_arm64": "YingXiaoAIWorkstation-mobile-0.1.6-android11-arm64-v8a-release.apk",
+  "android_armeabi_v7a": "YingXiaoAIWorkstation-mobile-0.1.6-android11-armeabi-v7a-release.apk",
+  "android_x86_64": "YingXiaoAIWorkstation-mobile-0.1.6-android11-x86_64-release.apk",
+  "mobile_source": "YingXiaoMobileFlutter-0.1.6-source.zip",
+  "android_local_ai": {
+    "default_runtime": "local",
+    "pairing_required_by_default": false,
+    "model_download": "https_only",
+    "switch_models": true,
+    "storage": "android_app_private_files/local_models"
+  },
+  "image_output": {
+    "desktop_output_max_edge": 16384,
+    "android_bridge_max_edge": 8192,
+    "android_bridge_resolution": "native",
+    "desktop_policies": [
+      "source_native",
+      "processed",
+      "long_4k",
+      "long_8k",
+      "smart_2x"
+    ]
+  },
+  "security": [
+    "Android local mode does not require desktop pairing token",
+    "desktop pairing remains optional bridge mode",
+    "model downloads require HTTPS URL",
+    "Android model files stored in app-private directory",
+    "existing desktop private LAN API enforcement retained"
+  ]
+}

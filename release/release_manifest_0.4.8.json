@@ -1,0 +1,26 @@
+{
+  "app": "映效AI工作站",
+  "desktop_version": "0.4.8",
+  "mobile_version": "0.1.7+8",
+  "generated_at": "2026-05-29T19:54:08",
+  "desktop_zip": "YingXiaoAIWorkstation-20260529-1950.zip",
+  "android_release": "YingXiaoAIWorkstation-mobile-0.1.7-android11-release.apk",
+  "android_debug": "YingXiaoAIWorkstation-mobile-0.1.7-android11-debug.apk",
+  "android_arm64": "YingXiaoAIWorkstation-mobile-0.1.7-android11-arm64-v8a-release.apk",
+  "android_armeabi_v7a": "YingXiaoAIWorkstation-mobile-0.1.7-android11-armeabi-v7a-release.apk",
+  "android_x86_64": "YingXiaoAIWorkstation-mobile-0.1.7-android11-x86_64-release.apk",
+  "mobile_source": "YingXiaoMobileFlutter-0.1.7-source.zip",
+  "android_model_library": {
+    "import_storage": "android_app_private_files/local_models",
+    "fallback_action": "import_local_model_package",
+    "download": "https_only",
+    "animations": "page_fade_slide_scale_and_model_tile_state",
+    "pairing_required_by_default": false
+  },
+  "image_output": {
+    "desktop_default": "smart_2x",
+    "android_bridge_max_edge": 8192,
+    "desktop_output_max_edge": 16384,
+    "android_bridge_resolution": "2x"
+  }
+}

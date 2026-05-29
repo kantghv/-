@@ -1,0 +1,26 @@
+{
+  "desktopVersion": "0.4.9",
+  "mobileVersion": "0.1.8+9",
+  "generatedAt": "2026-05-29T21:05:00+08:00",
+  "windows": {
+    "package": "YingXiaoAIWorkstation-20260529-2101.zip",
+    "sha256": "17E53F3963E0B3C7393DEE1B14CB74F67864FF02C342373D5833FBC0ECC97468",
+    "installedPath": "D:\\映效AI工作站",
+    "desktopShortcut": "E:\\OneDrive\\桌面\\映效AI工作站.lnk"
+  },
+  "imageOutputUpgrade": {
+    "mode": "detail_guided_super_resolution",
+    "defaultPolicy": "smart_2x",
+    "maxLongEdge": 16384,
+    "notes": [
+      "Progressive Lanczos upscale avoids one-step soft scaling.",
+      "Original luma edge guidance restores crisp local detail after high-resolution export.",
+      "Final sharpening is applied only after output-size reconstruction."
+    ]
+  },
+  "android": {
+    "package": "YingXiaoAIWorkstation-mobile-0.1.8-android11-release.apk",
+    "minimumAndroid": "11"
+  }
+}
+

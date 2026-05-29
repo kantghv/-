@@ -1,0 +1,72 @@
+{
+  "app": "映效AI工作站",
+  "desktop_version": "0.4.3-mobile-api",
+  "mobile_version": "0.1.3",
+  "generated_at": "2026-05-29T15:02:38",
+  "android_min_sdk": 30,
+  "android_target_sdk": 36,
+  "mobile_api": {
+    "token_required": true,
+    "endpoints": [
+      "/health",
+      "/system_stats",
+      "/api/tasks/image",
+      "/api/tasks/video",
+      "/api/models/deploy"
+    ],
+    "port": 8765
+  },
+  "security": [
+    "Desktop API bearer token",
+    "Android Keystore token storage",
+    "LAN HTTP requires app opt-in",
+    "Do not expose port 8765 to public internet"
+  ],
+  "assets": [
+    {
+      "name": "YingXiaoAIWorkstation-20260529-1459.zip",
+      "bytes": 319336754,
+      "sha256": "4A8E6DD536A381086B0D2630C622E3FFA29244F5C191D0F831EBAE2C63D78652"
+    },
+    {
+      "name": "YingXiaoAIWorkstation-0.4.3-installer-bundle.zip",
+      "bytes": 348601084,
+      "sha256": "EF5DD71B6096A4717FE4BC5DF30C2CF4CCF3D1E34756B1BE1A82A743FF71D5A3"
+    },
+    {
+      "name": "YingXiaoAIWorkstation-mobile-0.1.3-android11-release.apk",
+      "bytes": 50638386,
+      "sha256": "72EE0A563CD5E3B5AFECABE5BE34341BBA520F371E9C3310A3DAC2363356DB45"
+    },
+    {
+      "name": "YingXiaoAIWorkstation-mobile-0.1.3-android11-arm64-v8a-release.apk",
+      "bytes": 18034992,
+      "sha256": "4A8FCE2E1291BED7E52A6B5E88C4E10113C56722E098A01A0E18548DF0910D63"
+    },
+    {
+      "name": "YingXiaoAIWorkstation-mobile-0.1.3-android11-armeabi-v7a-release.apk",
+      "bytes": 15414928,
+      "sha256": "749D15EB061EBEDA5FB8FFBB5F9D9884C504F708B2C17A18C6347AAD74AE221A"
+    },
+    {
+      "name": "YingXiaoAIWorkstation-mobile-0.1.3-android11-x86_64-release.apk",
+      "bytes": 19442962,
+      "sha256": "5332894A38B4692F74FFF28D80C13F9B29A703732F6ED8F3E1D0388483566699"
+    },
+    {
+      "name": "YingXiaoAIWorkstation-mobile-0.1.3-android11-debug.apk",
+      "bytes": 150539931,
+      "sha256": "A20451EAC47F9C55DDEADD626ABAC31084DE88ACD0DB4F57E530ACFCBB4B9FA8"
+    },
+    {
+      "name": "YingXiaoMobileFlutter-0.1.3-source.zip",
+      "bytes": 171073,
+      "sha256": "C67E2816F7CE99378FE9D3BC810C3934F7C1802A6EBC78B9C81781F9E55BCA8D"
+    },
+    {
+      "name": "GITHUB_RELEASE_NOTES_0.4.3.md",
+      "bytes": 1900,
+      "sha256": "51C95AC9A20A3292EA51B0B080A5B9359C130856F3C4F468B5972999133E0E21"
+    }
+  ]
+}

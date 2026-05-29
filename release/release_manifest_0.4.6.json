@@ -1,0 +1,31 @@
+{
+  "app": "映效AI工作站",
+  "desktop_version": "0.4.6",
+  "mobile_version": "0.1.5+6",
+  "generated_at": "2026-05-29T17:59:18",
+  "desktop_zip": "YingXiaoAIWorkstation-20260529-1753.zip",
+  "android_release": "YingXiaoAIWorkstation-mobile-0.1.5-android11-release.apk",
+  "android_debug": "YingXiaoAIWorkstation-mobile-0.1.5-android11-debug.apk",
+  "android_arm64": "YingXiaoAIWorkstation-mobile-0.1.5-android11-arm64-v8a-release.apk",
+  "android_armeabi_v7a": "YingXiaoAIWorkstation-mobile-0.1.5-android11-armeabi-v7a-release.apk",
+  "android_x86_64": "YingXiaoAIWorkstation-mobile-0.1.5-android11-x86_64-release.apk",
+  "mobile_source": "YingXiaoMobileFlutter-0.1.5-source.zip",
+  "image_output": {
+    "desktop_allowed_max_edge": 8192,
+    "android_requested_max_edge": 6144,
+    "desktop_default_max_edge": 4096
+  },
+  "security_fixes": [
+    "private LAN / localhost API enforcement",
+    "private UDP discovery responses only",
+    "/system_stats requires token",
+    "minimal public /health response",
+    "pairing body capped at 4KB",
+    "task body capped at 96MB",
+    "generic server error responses",
+    "local token config ACL hardening on Windows",
+    "Android rejects URL credentials",
+    "Android private LAN detection supports link-local and IPv6 private ranges",
+    "pairing code must be exactly six digits"
+  ]
+}

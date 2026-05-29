@@ -1,0 +1,17 @@
+{
+  "app": "映效AI工作站",
+  "desktop_version": "0.4.4",
+  "mobile_version": "0.1.4+5",
+  "generated_at": "2026-05-29T16:47:44",
+  "desktop_zip": "YingXiaoAIWorkstation-20260529-1645.zip",
+  "android_release": "YingXiaoAIWorkstation-mobile-0.1.4-android11-release.apk",
+  "android_arm64": "YingXiaoAIWorkstation-mobile-0.1.4-android11-arm64-v8a-release.apk",
+  "mobile_source": "YingXiaoMobileFlutter-0.1.4-source.zip",
+  "features": [
+    "UDP 8766 自动发现",
+    "/pair 6 位配对码",
+    "服务自恢复 watchdog",
+    "Android Keystore 保存令牌",
+    "Android 11+ / target SDK 36"
+  ]
+}
